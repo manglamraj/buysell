@@ -4,7 +4,9 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 const app = express();
-port = 5000;
+port = process.env.PORT || 5000;
+
+app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.send("Server working successfully ");
