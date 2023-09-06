@@ -1,32 +1,24 @@
 {
-  "name": "buyandsell",
+  "name": "buysell",
   "version": "1.0.0",
-  "description": "A buy and sell website for college students",
-  "main": "app.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Saurabh Kumar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manglamraj/buysell.git"
+  },
+  "author": "",
   "license": "ISC",
-  "engines":{
-    "node":"14.17.1"
+  "bugs": {
+    "url": "https://github.com/manglamraj/buysell/issues"
   },
+  "homepage": "https://github.com/manglamraj/buysell#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cloudinary": "^1.26.3",
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "mongoose": "^5.13.7",
-    "mongoose-encryption": "^2.1.0",
-    "mongoose-findorcreate": "^3.0.0",
-    "multer": "^1.4.3",
-    "multer-storage-cloudinary": "^4.0.0",
-    "passport": "^0.4.1",
-    "passport-google-oauth20": "^2.0.0",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^6.1.0"
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
