@@ -5,6 +5,11 @@ const dotenv = require("dotenv");
 dotenv.config();
 const app = express();
 port = process.env.PORT || 3000;
+
+app.get("/", (req, res) => {
+  res.send("API Working successfully");
+});
+
 app.listen(port, () => {
   console.log(`Server is running at ${port}`);
 });
